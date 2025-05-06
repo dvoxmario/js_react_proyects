@@ -1,0 +1,15 @@
+// function declaration 
+/* esta funcion se inicializa y luego se declara, 
+no puede ser declarada antes.
+*/
+
+const sumar = function(numero1 = 0, numero2 = 0) {
+    console.log(numero1 + numero2)
+}
+
+
+sumar(10, 20)
+sumar(100, 131)
+sumar(10)
+
+
